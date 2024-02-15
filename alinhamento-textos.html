@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px">
+
+    <!--Parágrafo justificatifa-->
+    <p class="text-justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia
+      delectus deserunt, sint debitis iste, sequi neque magni eaque ut cum
+      similique corporis quaerat nihil dolorum ipsam quisquam dolorem? Vitae!
+    </p>
+
+        <!--
+        Alinhamento responsivo -
+        class text-<tela>-<alinhamento>
+            tela: sm, md, lg, xl
+            alinhamento: left, center, right
+     -->
+     <p class="text-sm-center">tela &gt;= 576px</p><!--Small-->
+     <p class="text-md-center">tela &gt;=  768px</p><!--Medium-->
+     <p class="text-lg-center">tela &gt;= 992px</p><!--Large-->
+     <p class="text-xl-center">tela &gt;= 1200px</p><!--Extra Large-->
+
+     <!-- Elemento Block para inline-->
+     <!-- bg = background / d = display -->
+     <h1 class="bg-success d-inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis praesentium rem ratione amet rerum fuga alias, iure sequi perspiciatis nihil sint? Incidunt error aliquid ea nam, iusto reiciendis illum quas!</h1>
+     <p class="bg-success d-inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem officiis fugiat distinctio impedit sequi pariatur quaerat eum, velit repellat facere necessitatibus atque explicabo harum maxime consectetur. Quod repellendus perferendis ex.</p>
+
+     <!-- Elemento Inline para Block -->
+     <span class="d-block d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, et? Voluptas sequi porro eius accusantium saepe eos, cumque dolorum vitae at mollitia sint harum sit, ab quia quo soluta aliquam!</span>
+     <span class="d-block d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eius sapiente aliquam, explicabo suscipit molestias architecto, repellat quos dolorum, deleniti sequi exercitationem! Eius molestiae qui pariatur similique, in quidem rerum.</span>
+
+     <!-- Elemento Inline-Block-->
+     <div class="bg-warning">
+      <h3 class="bg-success d-line d-block">Lorem ipsum</h3>
+      <h3 class="bg-success d-line d-block" style="margin-top: 50px; width: 400px;">Lorem ipsum dolor</h3>
+    </div>
+    </body>
+</html>
